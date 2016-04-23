@@ -1,0 +1,5 @@
+= kindle-cli
+
+Generate this with
+    kindle-cli rdoc
+After you have described your command line interface

@@ -1,0 +1,6 @@
+= kindle-cli
+
+Describe your project here
+
+:include:kindle-cli.rdoc
+
