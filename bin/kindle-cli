@@ -28,7 +28,7 @@ flag [:f,:flagname]
 
 desc 'Describe . here'
 arg_name 'Describe arguments to . here'
-command :. do |c|
+command '.' do |c|
   c.desc 'Describe a switch to .'
   c.switch :s
 

@@ -11,7 +11,6 @@ spec = Gem::Specification.new do |s|
   s.files = `git ls-files`.split("
 ")
   s.require_paths << 'lib'
-  s.has_rdoc = true
   s.extra_rdoc_files = ['README.rdoc','kindle-cli.rdoc']
   s.rdoc_options << '--title' << 'kindle-cli' << '--main' << 'README.rdoc' << '-ri'
   s.bindir = 'bin'
@@ -19,5 +18,6 @@ spec = Gem::Specification.new do |s|
   s.add_development_dependency('rake')
   s.add_development_dependency('rdoc')
   s.add_development_dependency('aruba')
-  s.add_runtime_dependency('gli','2.13.4')
+  s.add_development_dependency('test-unit')
+  s.add_runtime_dependency('gli','~> 2.13')
 end
